@@ -101,9 +101,9 @@ export default function ExploreScreen() {
 
   const listHeader = (
     <View style={styles.header}>
-      <Text style={styles.title}>Explorar</Text>
+      <Text style={styles.title}>Explorar Platos</Text>
       <Text style={styles.hint}>
-        Deslizá hacia abajo para ir cargando más platos de a {PAGE_SIZE} desde el menú del servidor.
+        Para ir probando vamos a cargar de a  {PAGE_SIZE} de lo que se trae de getPlatos del API, pero después lo corregimos según el opptimo que acordemos.
       </Text>
     </View>
   );
