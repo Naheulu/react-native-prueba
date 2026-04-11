@@ -9,7 +9,7 @@ export type Plato = {
   disponible: boolean;
   imagenUrl: string;
 };
-
+  //acá hacemos el fetch
 export async function getPlatos(): Promise<Plato[]> {
   const res = await fetch(`${API_URL}/api/platos`);
 
